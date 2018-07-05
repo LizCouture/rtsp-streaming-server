@@ -10,7 +10,7 @@
   "author": "Chris Wiggins <chris@wiggins.nz>",
   "license": "GPL-3.0",
   "dependencies": {
-    "rtsp-server": "^1.2.2",
+    "rtsp-server": "git+https://github.com/LizCouture/rtsp-server.git",
     "uuid": "^3.2.1",
     "winston": "^2.4.0"
   },
@@ -19,6 +19,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/chriswiggins/rtsp-streaming-server.git"
+    "url": "https://github.com/LizCouture/rtsp-streaming-server.git"
   }
 }

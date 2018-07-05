@@ -6,6 +6,8 @@ First things first, credit to @revmischa for their work on the perl-based server
 
 Use this module to run an RTSP server in javascript. Common use case is for load balancing
 
+This forked version has been altered to add server stop functionality.
+
 ## Running
 
 `npm install --save rtsp-streaming-server`

@@ -43,6 +43,14 @@ class RtspServer {
 			throw e;
 		}
 	}
+
+    async stop() {
+        try {
+            await this.Server.stop();
+        } catch (e) {
+            throw e;
+        }
+    }
 }
 
 module.exports = RtspServer;
